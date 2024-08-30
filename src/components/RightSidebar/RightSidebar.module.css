@@ -1,0 +1,67 @@
+.rightSidebar{
+    height: 100% ;
+    width: 230.08px;
+    border-left: 8px ;
+    border-left-color: #1E1E1E;
+    border-left-style:solid ;  
+    padding-left: 15px ;
+  }
+  
+  .rigthsidebarContent{
+    padding-left:20px ;
+    text-align: left;
+    margin-top: 40px;
+    
+  }
+  
+  .sidebar1{
+    margin-top: 100px;
+  }
+  .sidebar2{
+    padding-left: 20px ;
+    margin-top: 60px  ;
+    text-align: left;
+  
+  }
+  
+  .sidebar2Content{
+    text-transform: capitalize;
+    font-weight: 100;
+  }
+  
+  .yellowEffect{
+    margin: 5px 0pc 5px 0px;
+    padding: 0px 5px 0px 5px  ;
+    display: inline-block;
+    background-color: #FFA41C;
+    border-radius: 7px;
+    height: 27px;
+    width: 60px ;
+    text-transform: capitalize;
+  }
+  
+  .yellowEffect p {
+    font-weight: 400;
+  }
+  
+  .brandImage{
+    padding-right: 20px ;
+  } 
+  
+  .brandImage img{
+    width: 41px ;
+    height: 40px;
+    display: inline;
+    border-radius: 5px ;
+  }
+  
+  .imgName{
+    display: flex; 
+    margin-bottom: 10px ;
+  
+    }
+  
+  .brandName h6 {
+    text-transform: capitalize;
+    font-weight: 300;
+  }

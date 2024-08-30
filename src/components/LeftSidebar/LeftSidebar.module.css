@@ -1,0 +1,105 @@
+.Sidebar {
+  color: aliceblue;
+  height: 100%;
+  width: 210.08px;
+  border-right: 8px;
+  border-right-color: #1E1E1E;
+  border-right-style: solid;
+}
+
+.imgIcons {
+  display: inline-flexbox;
+  width: 80px;
+  height: 592px;
+}
+
+.image img {
+  width: 50px;
+  height: 50px;
+  margin-top: 101px;
+  border-radius: 50px;
+  margin-left: 70px;
+}
+
+.gridIcon {
+  width: 30px;
+  height: 30.03px;
+  margin-top: 20.49px;
+}
+
+.exploreIcon {
+  width: 30.46px;
+  height: 30.46px;
+  margin-top: 20.49px;
+}
+
+.bookmarkIcon {
+  width: 30.46px;
+  height: 30.46px;
+  margin-top: 20.49px;
+}
+
+.notificationIcon {
+  width: 30.46px;
+  height: 30.46px;
+  margin-top: 20.49px;
+}
+
+.playIcon {
+  width: 30.46px;
+  height: 30.46px;
+  margin-top: 20.49px;
+}
+
+.settingIcon {
+  width: 30.46px;
+  height: 30.46px;
+  margin-top: 20.49px;
+}
+
+.friends {
+  width: 65px;
+  height: 213px;
+  border-radius: 20px;
+  border: 2px solid #A6A6A636;
+  padding: 10px;
+  margin-left: 29%;
+  margin-top: -100px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.friends img {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.addIcon {
+  border-radius: 50%;
+  margin-left: 3px;
+}
+
+.toggleExit {
+  margin-top: 45px;
+  text-align: start;
+  margin-left: 10px;
+}
+
+.toggle {
+  display: inline-block;
+  width: 60px;
+  height: 22px;
+}
+
+.exit {
+  display: inline-block;
+  width: 33px;
+  height: 22px;
+  margin-left: 64px;
+}
+
+.icons {
+  margin-left: 79px;
+}
