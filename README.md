@@ -16,3 +16,5 @@ A brief description of what this project does and who it's for.
 1. Clone the repo:
    ```bash
    git clone https://github.com/your-username/repository-name.git
+
+## Movies Stream
