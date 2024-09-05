@@ -1,39 +1,26 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
-import Navbar from "./components/Navbar/Navbar";
-import LeftSidebar from "./components/LeftSidebar/LeftSidebar";
-import RightSidebar from "./components/RightSidebar/RightSidebar";
 import Outlet from "./components/Outlet/Outlet";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Root from "./routs/Root";
+import LeftSidebar from "./components/LeftSidebar/LeftSidebar";
+import Navbar from "./components/Navbar/Navbar";
+import RightSidebar from "./components/RightSidebar/RightSidebar";
 
 function App() {
-  // const [count, setCount] = useState(0);
 
-  const router = createBrowserRouter([
- 
-    {
-      path: "/",
-      element: <Root />,
-      // errorElement: <NotFound />, // way for showing error when user write a path outside of the project rand of paths , example: localhost.../register
-      children:[
-        {
-          path: "/",
-          element: <Outlet />,
-        }
-        
-      ]
-    },
   
-  ]);
   return (
-    
     <>
-      <RouterProvider router={router} />
-    </>
+      <div className="App">
+        <div className="container1">
+          <LeftSidebar />
+          <div className="main-content">
+          <Navbar />
+          <Outlet />
+          </div>
+          <RightSidebar />
+        </div>
+      </div></>
     
+  
   );
 }
 
