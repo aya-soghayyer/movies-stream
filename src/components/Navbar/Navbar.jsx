@@ -1,5 +1,7 @@
 import "bootstrap/dist/css/bootstrap.css";
+import { NavLink, Link } from "react-router-dom";
 import "../Navbar/Navbar.module.css";
+// import FontAwesomeIcon from "@fortawesome/react-fontawesome"
 
 function Navbar() {
   return (
@@ -8,6 +10,7 @@ function Navbar() {
         <div className="container-fluid ">
           <a className="navbar-brand text-white">Discover your favourites.</a>
           <form className="d-flex" role="search">
+
             <input
               className="form-control me-2"
               type="search"
@@ -15,13 +18,14 @@ function Navbar() {
               aria-label="Search"
             />
             <button
-              className=" btn btn-outline-warning btn-warning"
+              className="btn btn-outline-warning btn-warning"
               type="button"
             >
+              {" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                height="30"
-                width="30"
+                height="28"
+                width="28"
                 viewBox="0 0 512 512"
               >
                 <path
