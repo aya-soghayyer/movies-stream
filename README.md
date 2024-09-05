@@ -1,14 +1,20 @@
 # Movie Website
 
-This project is a Movie website built using React.js. The website allows users to browse and interact with a collection of movies and series, providing a sleek and modern user interface.
+Website for movies where you can discover your imagination and all the common films that you are interested in, I hope you enjoy your movie trip. don't forget to share with us you thinks about this trip 
 
-![Screenshot 2024-08-29 213710](https://github.com/user-attachments/assets/bcbe6592-95fd-4354-88d1-9e7ceed1717e)
+![image](https://github.com/user-attachments/assets/a853c1df-3015-47fa-b18e-8063435eac29)
+
+![image](https://github.com/user-attachments/assets/5bdf13e8-a9d1-4082-ab22-03068d57acfb)
+
+![Screen Recording 2024-09-05 151531](https://github.com/user-attachments/assets/df17c853-9b96-4c52-94fa-bca7277b13d8)
+
 
 
 ## Table of Contents
 
 - [Features](#features)
 - [Usage](#usage)
+- [deployment](#deployment)
 - [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
 
@@ -28,6 +34,9 @@ This project is a Movie website built using React.js. The website allows users t
 - Explore different genres and media services from the right sidebar.
 - View and update profile information from the left sidebar.
 
+## Deployment:
+follow the link please :) 
+https://movies-stream-gcwd.onrender.com/ 
 
 ## Project Structure
 ```
@@ -40,14 +49,11 @@ movie-stream/
 ├── src/
 │   ├── assets/              #Images of movies 
 │   │   ├── Tall_Girl.png
-|        
+|
 │   ├── App.js              # Root component
 │   ├── index.js            # Entry point of the application
 │   |__ index.css           # Global and component-specific styles
-|   |__ NavBar.js           # Navigation bar component
-|   |__ BodyContent.js      # Main content component
-|   |__ RightSidebar.js     # Right sidebar component
-│   |__ LeftSidebar.js      # Left sidebar component
+|   
 │
 ├── package.json            # Project dependencies and scripts
 └── README.md               # Project documentation
