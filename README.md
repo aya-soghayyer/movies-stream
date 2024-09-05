@@ -1,6 +1,6 @@
 # Movie Website
 
-Website for movies where you can discover your imagination and all the common films that you are interested in, I hope you enjoy your movie trip. don't forget to share with us you thinks about this trip 
+Website for movies where you can discover your imagination and all the films you are interested in, I hope you enjoy your movie trip. don't forget to share with us your thinks about this trip 
 
 ![image](https://github.com/user-attachments/assets/a853c1df-3015-47fa-b18e-8063435eac29)
 
