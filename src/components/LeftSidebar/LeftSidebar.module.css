@@ -11,20 +11,39 @@
   display: inline-flexbox;
   width: 80px;
   height: 592px;
+
 }
 
 .image img {
+  /* position: relative; */
   width: 50px;
   height: 50px;
   margin-top: 101px;
   border-radius: 50px;
   margin-left: 70px;
+  /* overflow-clip-margin: content-box; */
+  overflow: clip;
+  /* transition: transform 0.30s ease-in-out;
+  transform: scale(1.4);
+  cursor: pointer;  */
 }
-
+.image img:hover{
+  transition: transform 0.30s ease-in-out;
+  transform: scale(1.2);
+  cursor: pointer;
+}
 .gridIcon {
   width: 30px;
   height: 30.03px;
   margin-top: 20.49px;
+}
+.gridIcon :hover{
+  cursor:pointer;
+  background-color: #FFA41C;
+  padding: 5px ;
+  border-radius: 10px ;
+  width: 35px;
+  height: 35px;
 }
 
 .exploreIcon {
@@ -32,11 +51,26 @@
   height: 30.46px;
   margin-top: 20.49px;
 }
-
+.exploreIcon :hover{
+  cursor:pointer;
+  background-color: #FFA41C;
+  padding: 5px ;
+  border-radius: 10px ;
+  width: 35px;
+  height: 35px;
+}
 .bookmarkIcon {
   width: 30.46px;
   height: 30.46px;
   margin-top: 20.49px;
+}
+.bookmarkIcon :hover{
+  cursor:pointer;
+  background-color: #FFA41C;
+  padding: 5px ;
+  border-radius: 10px ;
+  width: 35px;
+  height: 35px;
 }
 
 .notificationIcon {
@@ -44,17 +78,39 @@
   height: 30.46px;
   margin-top: 20.49px;
 }
-
+.notificationIcon :hover{
+  cursor:pointer;
+  background-color: #FFA41C;
+  padding: 5px ;
+  border-radius: 10px ;
+  width: 35px;
+  height: 35px;
+}
 .playIcon {
   width: 30.46px;
   height: 30.46px;
   margin-top: 20.49px;
 }
+.playIcon :hover{
+  cursor:pointer;
+  background-color: #FFA41C;
+  padding: 5px ;
+  border-radius: 10px ;
+  width: 35px;
+  height: 35px;
+}
 
 .settingIcon {
-  width: 30.46px;
-  height: 30.46px;
   margin-top: 20.49px;
+}
+
+.settingIcon :hover{
+  cursor:pointer;
+  background-color: #FFA41C;
+  padding: 5px ;
+  border-radius: 10px ;
+  width: 35px;
+  height: 35px;
 }
 
 .friends {
@@ -76,9 +132,20 @@
   margin-bottom: 20px;
 }
 
+.friendsList img:hover{
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.4);
+  cursor: pointer;
+}
+
+
 .addIcon {
   border-radius: 50%;
   margin-left: 3px;
+}
+
+.addIcon  :hover{
+  cursor:pointer;
 }
 
 .toggleExit {
@@ -93,11 +160,20 @@
   height: 22px;
 }
 
+.toggle :hover{
+  cursor:pointer;
+
+}
+
 .exit {
   display: inline-block;
   width: 33px;
   height: 22px;
   margin-left: 64px;
+}
+
+.exit:hover{
+ cursor:pointer;
 }
 
 .icons {
