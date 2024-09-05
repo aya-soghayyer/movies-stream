@@ -8,7 +8,6 @@ function Navbar() {
         <div className="container-fluid ">
           <a className="navbar-brand text-white">Discover your favourites.</a>
           <form className="d-flex" role="search">
-
             <input
               className="form-control me-2"
               type="search"
@@ -19,7 +18,6 @@ function Navbar() {
               className="btn btn-outline-warning btn-warning"
               type="button"
             >
-              {" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 height="28"
