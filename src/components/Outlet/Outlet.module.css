@@ -1,0 +1,161 @@
+* {
+    color: aliceblue;
+    padding: 10px   ;
+}
+
+.section {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.section1 {
+    display: flex;
+}
+
+.image1 {
+    margin-right: 10%;
+}
+
+.image1 img {
+    width: 353px;
+    height: 230px;
+    border-radius: 15px;
+}
+
+.image2 img {
+    width: 259px;
+    height: 230px;
+    border-radius: 15px;
+}
+
+.image3 img {
+    width: 232px;
+    height: 167px;
+    border-radius: 15px;
+}
+
+.image4 img {
+    width: 232px;
+    height: 167px;
+    border-radius: 15px;
+}
+
+.image5 img {
+    width: 180px;
+    height: 267px;
+    border-radius: 15px;
+    margin-left: 15px;
+}
+
+.image5  :hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.image5 {
+    margin-top: 50px;
+}
+
+.image4  :hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.image3  :hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.image2  :hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.image1 :hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+
+tr {
+    display: flex;
+
+}
+
+td {
+    margin-top: 10px;
+
+}
+
+.continueBox {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.continueBox h4 {
+    font-size: 1.2rem;
+
+}
+.continueBox h4:hover {
+    color: #FFA41C;
+    text-shadow: 1px 1px 15px #FFA41C ;
+}
+
+.movies {
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin-left: 10px
+}
+
+button {
+    border: 5px solid #151515;
+    background-color: #181715;
+    border-radius: 5px;
+    margin-left: 5px;
+    color: #FFA41C;
+    padding: 0px 5px 0px 5px;
+    font-size: 0.9rem;
+
+}
+
+.films {
+    display: flex;
+}
+
+.imageInfo4 {
+    margin-left: 20px;
+}
+
+
+.info {
+    margin-top: 10px;
+    display: flex;
+}
+
+.info svg {
+    margin-left: 45px;
+}
+
+.btn :hover {
+    background-color: #FFA41C;
+    border-radius: 11px;
+    color: antiquewhite;
+
+}
+
+.info svg :hover{
+    cursor:pointer;
+    background-color:antiquewhite;
+    padding: 5px ;
+    border-radius: 10px ;
+    width: 35px;
+    height: 35px;
+}

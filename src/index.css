@@ -1,0 +1,38 @@
+
+ *{
+  padding: 0px ;
+  margin: 0px ;
+ }
+  
+body{
+  background-color: #181715;
+  color: aliceblue;
+}
+
+.App{
+display: flex;
+}
+
+.container1{
+  justify-content: center;
+  display: flex;
+}
+
+.main-content{
+  display: inline;
+
+}
+
+img::selection{
+  background-color: rgba(255, 179, 0, 0.619);
+}
+
+
+
+
+
+
+
+
+
+
