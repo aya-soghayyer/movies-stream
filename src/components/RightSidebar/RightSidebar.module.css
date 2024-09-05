@@ -65,3 +65,20 @@
     text-transform: capitalize;
     font-weight: 300;
   }
+
+  .sidebar2Content :hover{
+    margin: 5px 0pc 5px 0px;
+    padding: 0px 5px 0px 5px  ;
+    display: inline-block;
+    background-color: #FFA41C;
+    border-radius: 7px;
+    height: 30px;
+    width: 70px ;
+    cursor: pointer;
+  }
+
+  .element :hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
