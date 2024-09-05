@@ -1,5 +1,6 @@
 * {
     color: aliceblue;
+    padding: 10px   ;
 }
 
 .section {
@@ -44,12 +45,44 @@
     height: 267px;
     border-radius: 15px;
     margin-left: 15px;
+}
 
+.image5  :hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .image5 {
     margin-top: 50px;
 }
+
+.image4  :hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.image3  :hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.image2  :hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.image1 :hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
 
 tr {
     display: flex;
@@ -70,6 +103,10 @@ td {
 .continueBox h4 {
     font-size: 1.2rem;
 
+}
+.continueBox h4:hover {
+    color: #FFA41C;
+    text-shadow: 1px 1px 15px #FFA41C ;
 }
 
 .movies {
@@ -112,4 +149,13 @@ button {
     border-radius: 11px;
     color: antiquewhite;
 
+}
+
+.info svg :hover{
+    cursor:pointer;
+    background-color:antiquewhite;
+    padding: 5px ;
+    border-radius: 10px ;
+    width: 35px;
+    height: 35px;
 }
